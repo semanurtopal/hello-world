@@ -26,7 +26,7 @@ namespace GameOdev.Concrete
 
         public override void Save(IEntity gamer)
         {
-            if (_gamerCheckService.CheckIfRealPerson(gamer))
+            if (_gamerCheckService.CheckIfRealPerson(gamer)==true)
             {
                 base.Save(gamer);
 

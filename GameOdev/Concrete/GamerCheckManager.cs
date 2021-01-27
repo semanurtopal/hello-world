@@ -10,7 +10,9 @@ namespace GameOdev.Concrete
     {
         public bool CheckIfRealPerson(IEntity gamer)
         {
-            return true;
+            
+                return true;
+            
         }
     }
 }

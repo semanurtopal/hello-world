@@ -9,7 +9,7 @@ namespace GameOdev
     {
         static void Main(string[] args)
         {
-            BaseGamerManager gamerManager = new Gamer1Manager(new EDevletServiceReference());
+            BaseGamerManager gamerManager = new Gamer1Manager(new GamerCheckManager());
             gamerManager.Save(new Gamer { Id=1, FirstName="Semanur",LastName="Topal",DateOfBirth= new DateTime(1997,10,1),NationalityId="40354315637"});
 
             BaseGameManager gameManager = new Game1Manager();
